@@ -7,7 +7,7 @@
     <title>Raúl Calzado Olmo</title>
     <meta name="description" content="Raúl Calzado Olmo, estudiante de Ingeniería Informática en la Escuela Superior de Informática la Universidad de Castilla-La Mancha.">
     <meta name="author" content="Raúl Calzado Olmo">
-    <meta name="keywords" content="Calzado Olmo, Raúl Calzado Olmo, desarrollo, software, programación, Ingeniería Informática, IoT">
+    <meta name="keywords" content="Calzado Olmo, Raúl Calzado Olmo, desarrollo, software, programación, Ingeniería Informática">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
@@ -26,6 +26,7 @@
             <ul class="navbar-nav">
                 <li class="nav-item"><a class="nav-link" href="#about">Sobre Mí</a></li>
                 <li class="nav-item"><a class="nav-link" href="#education">Formación</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience">Experiencia</a></li>
                 <li class="nav-item"><a class="nav-link" href="#skills">Habilidades</a></li>
                 <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact">Contacto</a></li>
@@ -39,7 +40,10 @@
         <div class="container">
             <div class="header-content">
                 <h2 style="color: white;">Bienvenido a Mi Página</h2>
-                <h1>Soy Raúl Calzado Olmo</h1>
+                <div class="name-container">
+                    <p style="font-size: 1.5em; display: inline-block; color: white;">Soy</p>
+                    <h1 style="font-size: 2.5em; margin-left: 10px; display: inline-block;">Raúl Calzado Olmo</h1>
+                </div>
                 <p style="color: white;">Explora mi trabajo y conéctate conmigo</p>
                 <div class="social-icons">
                     <a href="https://www.linkedin.com/in/raul-calzado-olmo-60404b272/" target="_blank">
@@ -90,7 +94,7 @@
                         </li>
                         <li class="list-group-item" style="background-color: #f8f9fa;">
                             <strong>Página web:</strong>
-                            <span><a href="https://raulco02.github.io/" class="text-dark">https://raulco02.github.io/</a></span>
+                            <span><a href="https://estapagina.com/" class="text-dark">https://estapagina.com</a></span>
                         </li>
                         <li class="list-group-item" style="background-color: #f8f9fa;">
                             <strong>Github:</strong>
@@ -118,20 +122,56 @@
                 <div class="col-lg-12 text-center">
                     <h2>Formación</h2>
                     <p>Aquí podréis encontrar la formación que he recibido con los años.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <div class="card" >
+                        <div class="row no-gutters">
+                            <!-- Imagen a la izquierda -->
+                            <div class="col-md-4">
+                                <img src="./logo-uclm.jpg" class="card-img" alt="Logo de la Universidad de Castilla-La Mancha">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">Grado en Ingeniería Informática. 2020-Actualidad</h5>
+                                    <p class="card-text">
+                                        <a href="https://esi.uclm.es/" class="link">Escuela Superior de Informática</a><br>
+                                        <a href="https://www.uclm.es/" class="link"> Universidad de Castilla-La Mancha </a><br>
+                                        <a href="https://esi.uclm.es/index.php/grado-en-ingenieria-informatica/intensificaciones/" class="link">Intensificación: Tecnologías de la Información</a>.
+                                        <ul class="lista">
+                                            <li>Matrícula de honor en Estructura de Computadores</li>
+                                            <li>Matrícula de honor en Programación Concurrente y Tiempo Real</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Formación lingüística</h2>
+                    <p>Nivel C1 en Inglés - Cambridge English Level 2 Certificate in ESOL International (Advanced)</p>
+                    <img src="./cambridge.png" alt="Logo Cambridge" class="img-fluid apt-icon">
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="section-divider"></div>
+    <section id="experience" class="experience-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Experiencia</h2>
+                    <p>Aquí podrás encontrar la experiencia práctica que he adquirido.</p>
                     <br>
                 </div>
             </div>
             <ul>
-                <li style="--accent-color:#41516C">
-                    <div class="date">2020-Actualidad</div>
-                    <div class="title">Grado en Ingeniería Informática</div>
-                    <div class="descr">
-                        <a href="https://esi.uclm.es/" class="link">Escuela Superior
-                            de Informática</a><br>
-                        <a href="https://www.uclm.es/" class="link"> Universidad de Castilla-La Mancha </a><br>
-                        <a href="https://esi.uclm.es/index.php/grado-en-ingenieria-informatica/intensificaciones/" class="link">Intensificación: Tecnologías de la Información</a><br>
-                    </div>
-                </li>
                 <li style="--accent-color:#FBCA3E">
                     <div class="date">2022-2024</div>
                     <div class="title">Becario</div>
@@ -157,25 +197,16 @@
                     </div>
                 </li>
             </ul>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Formación lingüística</h2>
-                    <p>Nivel C1 en Inglés - Cambridge English Level 2 Certificate in ESOL International (Advanced)</p>
-                    <img src="./cambridge.png" alt="Logo Cambridge" class="img-fluid apt-icon">
-                    <br>
-                </div>
-            </div>
         </div>
     </section>
     <div class="section-divider"></div>
-
     <section id="skills">
         <div class="container">
             <div class="col-lg-12 text-center">
                 <h2>Habilidades</h2>
                 <p>Aquí podréis encontrar las diferentes aptitudes que he adquirido y las tecnologías que he aprendido durante mi etapa formativa junto al nivel que tengo en cada una de ellas.</p>
                 <br>
-                <h3>Aptitudes</h3>
+                <h3>Soft Skills</h3>
                 <br>
             </div>
             <div class="row">
@@ -226,7 +257,7 @@
                 </div>
             </div>
             <div class="col-lg-12 text-center">
-                <h3>Tecnologías</h3>
+                <h3>Hard Skills</h3>
                 <br>
             </div>
             <div class="row">
@@ -241,12 +272,6 @@
                             <div class="progress">
                                 <div class="progress-bar" role="progressbar" style="width: 80%; background-color: #FBCA3E;"
                                     aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                            </div>
-                            <p class="p-apt">Typescript <img src="./habilidades/typescript.png" alt="Typescript" class="img-fluid hab-icon"></p>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar" style="width: 60%; background-color: #E24A68;"
-                                    aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
                                 </div>
                             </div>
                             <p class="p-apt">Java <img src="./habilidades/java.png" alt="Java" class="img-fluid hab-icon"></p>
@@ -330,6 +355,35 @@
                 <div class="col-md-4" style="margin-bottom: 10px;">
                     <div class="card h-100">
                         <div class="skill-category">
+                            <h4>Desarrollo web</h4>
+                            <div class="section-divider"></div>
+                            <div style="margin-top: 10px;"></div>
+                            <p class="p-apt">Typescript <img src="./habilidades/typescript.png" alt="Typescript" class="img-fluid hab-icon"></p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar" style="width: 60%; background-color: #E24A68;"
+                                    aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                            <p class="p-apt">HTML<img src="./habilidades/html.png" alt="HTML" class="img-fluid hab-icon"></p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar"
+                                    style="width: 70%; background-color: #E24A68;" aria-valuenow="70"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                </div>
+                            </div>
+                            <p class="p-apt">CSS<img src="./habilidades/CSS.png" alt="CSS" class="img-fluid hab-icon"></p>
+                            <div class="progress">
+                                <div class="progress-bar" role="progressbar"
+                                    style="width: 60%; background-color: #E24A68;" aria-valuenow="60" aria-valuemin="0"
+                                    aria-valuemax="100">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4" style="margin-bottom: 10px;">
+                    <div class="card h-100">
+                        <div class="skill-category">
                             <h4>Frameworks</h4>
                             <div class="section-divider"></div>
                             <div style="margin-top: 10px;"></div>
@@ -375,29 +429,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4" style="margin-bottom: 10px;">
-                    <div class="card h-100">
-                        <div class="skill-category">
-                            <h4>Por determinar</h4>
-                            <div class="section-divider"></div>
-                            <div style="margin-top: 10px;"></div>
-                            <p class="p-apt">Por determinar<img src="./habilidades/spain.png" alt="Español" class="img-fluid hab-icon"></p>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar"
-                                    style="width: 100%; background-color: #FBCA3E;" aria-valuenow="100"
-                                    aria-valuemin="0" aria-valuemax="100">
-                                </div>
-                            </div>
-                            <p class="p-apt">Por determinar Y CAMBIAR APTITUDES<img src="./habilidades/england.png" alt="Inglés" class="img-fluid hab-icon"></p>
-                            <div class="progress">
-                                <div class="progress-bar" role="progressbar"
-                                    style="width: 90%; background-color: #FBCA3E;" aria-valuenow="90" aria-valuemin="0"
-                                    aria-valuemax="100">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </div>
     </section>
@@ -414,8 +446,8 @@
                             <img src="pokeball.avif" class="card-img-top" alt="Pokeball">
                             <div class="card-body">
                                 <h5 class="card-title">IPokémon</h5>
-                                <p class="card-text">IPokémon es un proyecto hecho en C# usando UWP para la asignatura de Interacción
-                                    Persona-Ordenador. Se trata de una aplicación web que permite al usuario buscar pokemons, ver sus características, jugar
+                                <p class="card-text">IPokémon es un proyecto hecho para la asignatura de Interacción
+                                    Persona-Ordenador. Se trata de una aplicación que permite al usuario buscar pokemons, ver sus características, jugar
                                     con ellos y ver sus animaciones y hacer combates.</p>
                                 <ul class="lista">
                                     <li style="font-weight: normal;">Número de participantes: 2</li>
@@ -434,14 +466,14 @@
                             <img src="diabetes.png" class="card-img-top" alt="Imagen ilustrativa de diabetes">
                             <div class="card-body">
                                 <h5 class="card-title">FindRisk</h5>
-                                <p class="card-text">El proyecto de prevención de diabetes es una aplicación de escritorio hecha en C# usando WPF. Se trata de una aplicación que permite a los usuarios introducir sus datos
+                                <p class="card-text">El proyecto de prevención de diabetes es una aplicación de escritorio que permite a los usuarios introducir sus datos
                                     y mediante el algoritmo C4.5 se les asigna un riesgo de padecer diabetes y unos consejos.
                                 </p>
                                 <ul class="lista">
                                     <li style="font-weight: normal;">Número de participantes: 2</li>
                                     <li style="font-weight: normal;">Tecnologías: C#, WPF</li>
                                 </ul>
-                                <div class="btn btn-primary" onclick="window.location='https://github.com/Raulco02/IPOkemon';" style="background-color: #343a40; border-color: #343a40;">
+                                <div class="btn btn-primary" onclick="window.location='https://github.com/Raulco02/prevencionDiabetes';" style="background-color: #343a40; border-color: #343a40;">
                                     Ver más
                                 </div>
                             </div>
@@ -460,9 +492,9 @@
                                 </p>
                                 <ul class="lista">
                                     <li style="font-weight: normal;">Número de participantes: 3</li>
-                                    <li style="font-weight: normal;">Tecnología: Python, Flask, HTML y CSS</li>
+                                    <li style="font-weight: normal;">Tecnología: Python, HTML y CSS</li>
                                 </ul>
-                                <div class="btn btn-primary" onclick="window.location='https://github.com/Raulco02/IPOkemon';" style="background-color: #343a40; border-color: #343a40;">
+                                <div class="btn btn-primary" onclick="window.location='https://github.com/Raulco02/isi-ESI-Travel';" style="background-color: #343a40; border-color: #343a40;">
                                     Ver más
                                 </div>
                             </div>
