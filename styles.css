@@ -301,29 +301,3 @@ p {
 .progress{
     margin-bottom: 10px;
 }
-
-.fa-beat {
-    animation-delay: var(--fa-animation-delay, 0s); /* Ajusta la unidad según sea necesario (segundos, milisegundos, etc.) */
-}
-
-.fa-bounce {
-    animation-delay: var(--fa-animation-delay, 0s); /* Ajusta la unidad según sea necesario (segundos, milisegundos, etc.) */
-}
-
-.fa-beat-fade,
-.fa-fade {
-    animation-delay: var(--fa-animation-delay, 0s); /* Ajusta la unidad según sea necesario (segundos, milisegundos, etc.) */
-}
-
-.fa-flip {
-    transform: rotate(var(--fa-rotate-angle, none)); /* Ajusta según sea necesario */
-}
-
-.fa-shake,
-.fa-spin {
-    animation-delay: var(--fa-animation-delay, 0s); /* Ajusta la unidad según sea necesario (segundos, milisegundos, etc.) */
-}
-
-.fa-rotate-by {
-    transform: rotate(var(--fa-rotate-angle, none)); /* Ajusta según sea necesario */
-}
