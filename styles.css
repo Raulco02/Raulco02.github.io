@@ -40,11 +40,11 @@
     position: relative;
     z-index: 1;
 }
-.education-section h1 {
+.experience-section h1 {
     text-align: center;
 }
 
-.education-section ul {
+.experience-section ul {
     --col-gap: 2rem;
     --row-gap: 2rem;
     --line-w: 0.25rem;
@@ -58,7 +58,7 @@
 }
 
 /* line */
-.education-section ul::before {
+.experience-section ul::before {
     content: "";
     grid-column: 1;
     grid-row: 1 / span 20;
@@ -69,12 +69,12 @@
 /* columns*/
 
 /* row gaps */
-.education-section ul li:not(:last-child) {
+.experience-section ul li:not(:last-child) {
     margin-bottom: var(--row-gap);
 }
 
 /* card */
-.education-section ul li {
+.experience-section ul li {
     grid-column: 2;
     --inlineP: 1.5rem;
     margin-inline: var(--inlineP);
@@ -84,7 +84,7 @@
 }
 
 /* date */
-.education-section ul li .date {
+.experience-section ul li .date {
     --dateH: 3rem;
     height: var(--dateH);
     margin-inline: calc(var(--inlineP) * -1);
@@ -104,7 +104,7 @@
 }
 
 /* date flap */
-.education-section ul li .date::before {
+.experience-section ul li .date::before {
     content: "";
     width: var(--inlineP);
     height: var(--inlineP);
@@ -118,7 +118,7 @@
 }
 
 /* circle */
-.education-section ul li .date::after {
+.experience-section ul li .date::after {
     content: "";
     position: absolute;
     width: 2rem;
@@ -133,14 +133,14 @@
 }
 
 /* title descr */
-.education-section ul li .title,
-.education-section ul li .descr {
+.experience-section ul li .title,
+.experience-section ul li .descr {
     background: var(--bgColor);
     position: relative;
     padding-inline: 1.5rem;
 }
 
-.education-section ul li .title {
+.experience-section ul li .title {
     overflow: hidden;
     background-color: #f8f9fa;
     padding-block-start: 1.5rem;
@@ -149,7 +149,7 @@
     box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
 }
 
-.education-section ul li .descr {
+.experience-section ul li .descr {
     background-color: #f8f9fa;
     padding-block-start: 0.5rem;
     padding-block-end: 1.5rem;
@@ -157,8 +157,8 @@
 }
 
 /* shadows *//*
-.education-section ul li .title::before,
-.education-section ul li .descr::before {
+.experience-section ul li .title::before,
+.experience-section ul li .descr::before {
     content: "";
     position: absolute;
     width: 90%;
@@ -170,48 +170,48 @@
     transform: translate(-50%, 50%);
 }
 */
-.education-section ul li .title::before {
+.experience-section ul li .title::before {
     bottom: calc(100% + 0.125rem);
 }
 
-.education-section ul li .descr::before {
+.experience-section ul li .descr::before {
     z-index: -1;
     bottom: 0.25rem;
 }
 
 @media (min-width: 40rem) {
-    .education-section ul {
+    .experience-section ul {
         grid-template-columns: 1fr var(--line-w) 1fr;
     }
 
-    .education-section ul::before {
+    .experience-section ul::before {
         grid-column: 2;
     }
 
-    .education-section ul li:nth-child(odd) {
+    .experience-section ul li:nth-child(odd) {
         grid-column: 1;
     }
 
-    .education-section ul li:nth-child(even) {
+    .experience-section ul li:nth-child(even) {
         grid-column: 3;
     }
 
     /* start second card */
-    .education-section ul li:nth-child(2) {
+    .experience-section ul li:nth-child(2) {
         grid-row: 2/4;
     }
 
-    .education-section ul li:nth-child(odd) .date::before {
+    .experience-section ul li:nth-child(odd) .date::before {
         clip-path: polygon(0 0, 100% 0, 100% 100%);
         left: 0;
     }
 
-    .education-section ul li:nth-child(odd) .date::after {
+    .experience-section ul li:nth-child(odd) .date::after {
         transform: translate(-50%, -50%);
         left: calc(100% + var(--col-gap) + var(--line-w) / 2);
     }
 
-    .education-section ul li:nth-child(odd) .date {
+    .experience-section ul li:nth-child(odd) .date {
         border-radius: 0 calc(var(--dateH) / 2) calc(var(--dateH) / 2) 0;
     }
 }
@@ -262,6 +262,7 @@ p {
 .section-divider {
     border-top: 1px solid #ddd; /* Cambia el color del borde según tus preferencias */
 }
+
 /* Cambiar color del menú */
 .navbar-nav a.active {
     color: #ffffff !important;
