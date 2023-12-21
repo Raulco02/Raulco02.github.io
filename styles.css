@@ -311,3 +311,7 @@ p {
 .progress{
     margin-bottom: 10px;
 }
+
+.fa-rotate-by {
+    --fa-rotate-angle: 0deg !important;
+}
