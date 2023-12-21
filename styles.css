@@ -259,6 +259,16 @@ p {
     transform: scale(1.05);
 }
 
+.btn-hover {
+    background: none; 
+    border-color: white;
+    transition: transform 0.3s ease-in-out;
+}
+
+.btn-hover:hover {
+    transform: scale(1.05);
+}
+
 .section-divider {
     border-top: 1px solid #ddd; /* Cambia el color del borde según tus preferencias */
 }
